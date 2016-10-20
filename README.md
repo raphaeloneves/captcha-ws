@@ -1,6 +1,6 @@
 # captcha-ws
 Componente de captcha baseado na API do Visual Captcha(http://visualcaptcha.net/).
-Atualmente existe somente uma versão não oficial de integração com Java, desenvolvido com Servlet. O objetivo deste projeto é desacoplar o fornecimento e comportamento do servidor de captcha de forma modularizada, a fim de que outras aplicações possam consumir o componente do serviço REST a partir do uso do componente modificado do VisualCaptcha.
+O objetivo deste projeto é desacoplar o fornecimento e comportamento do servidor de captcha de forma modularizada, a fim de que outras aplicações possam consumir o componente do serviço REST a partir do uso do componente modificado do VisualCaptcha.
 
 #Para configurar o projeto, tenha:
 
