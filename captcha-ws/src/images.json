@@ -1,0 +1,142 @@
+[
+    {
+        "value": "Avião",
+        "path": "airplane.png"
+    },
+    {
+        "value": "Balões",
+        "path": "balloons.png"
+    },
+    {
+        "value": "Câmera",
+        "path": "camera.png"
+    },
+    {
+        "value": "Carro",
+        "path": "car.png"
+    },
+    {
+        "value": "Gato",
+        "path": "cat.png"
+    },
+    {
+        "value": "Cadeira",
+        "path": "chair.png"
+    },
+    {
+        "value": "Clip",
+        "path": "clip.png"
+    },
+    {
+        "value": "Relógio",
+        "path": "clock.png"
+    },
+    {
+        "value": "Nuvem",
+        "path": "cloud.png"
+    },
+    {
+        "value": "Computador",
+        "path": "computer.png"
+    },
+    {
+        "value": "Envelope",
+        "path": "envelope.png"
+    },
+    {
+        "value": "Olho",
+        "path": "eye.png"
+    },
+    {
+        "value": "Bandeira",
+        "path": "flag.png"
+    },
+    {
+        "value": "Pasta",
+        "path": "folder.png"
+    },
+    {
+        "value": "Pé",
+        "path": "foot.png"
+    },
+    {
+        "value": "Gráfico",
+        "path": "graph.png"
+    },
+    {
+        "value": "Casa",
+        "path": "house.png"
+    },
+    {
+        "value": "Chave",
+        "path": "key.png"
+    },
+    {
+        "value": "Folha",
+        "path": "leaf.png"
+    },
+    {
+        "value": "Lâmpada",
+        "path": "light-bulb.png"
+    },
+    {
+        "value": "Cadeado",
+        "path": "lock.png"
+    },
+    {
+        "value": "Lupa",
+        "path": "magnifying-glass.png"
+    },
+    {
+        "value": "Homem",
+        "path": "man.png"
+    },
+    {
+        "value": "Calça",
+        "path": "pants.png"
+    },
+    {
+        "value": "Lápis",
+        "path": "pencil.png"
+    },
+    {
+        "value": "Impressora",
+        "path": "printer.png"
+    },
+    {
+        "value": "Robô",
+        "path": "robot.png"
+    },
+    {
+        "value": "Tesoura",
+        "path": "scissors.png"
+    },
+    {
+        "value": "Óculos",
+        "path": "sunglasses.png"
+    },
+    {
+        "value": "Etiqueta",
+        "path": "tag.png"
+    },
+    {
+        "value": "Árvore",
+        "path": "tree.png"
+    },
+    {
+        "value": "Caminhão",
+        "path": "truck.png"
+    },
+    {
+        "value": "Camiseta",
+        "path": "t-shirt.png"
+    },
+    {
+        "value": "Mulher",
+        "path": "woman.png"
+    },
+    {
+        "value": "Mundo",
+        "path": "world.png"
+    }
+]
