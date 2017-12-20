@@ -1,15 +1,16 @@
-# captcha-ws
-Componente de captcha baseado na API do Visual Captcha(http://visualcaptcha.net/).
-O objetivo deste projeto é desacoplar o fornecimento e comportamento do servidor de captcha de forma modularizada, a fim de que outras aplicações possam consumir o componente do serviço REST a partir do uso do componente modificado do VisualCaptcha.
+# Visual Captcha WS
 
-#Para configurar o projeto, tenha:
+This component is based on Visual Captcha(http://visualcaptcha.net/) and aims to isolate backend and frontend behaviors using JQuery and HTML5 resources to client side and JAX-RS to server side.
 
-* JDK 1.7 ou superior.
-* JQuery 2.2.4 ou superior.
-* Servidor de aplicação de sua preferência.
+Some changes must be done, like:
 
-A estrutura do projeto ainda não foi adaptada para trabalhar com o Maven, com isso, as bibliotecas abaixo precisam ser adicionadas ao class path da aplicação.
-Obs: As mesmas encontram-se na pasta WEB-INF/libs deste projeto.
+1) Convert project to a Maven project
+2) Give a better treatment to client routes
+3) Add visual feedback to valid/invalid choices
+
+It was developed using Java version 7 and JQuery 2.2.4.
+
+Above are Java libraries necessary to use this component. (all of then are at WEB-INF/libs folder)
 
 * asm-3.1.jar
 * gson-2.1-javadoc.jar
@@ -22,20 +23,13 @@ Obs: As mesmas encontram-se na pasta WEB-INF/libs deste projeto.
 * jsr311-api-1.1.1.jar
 
 
-#Fluxo de trabalho:
+#Workflow
 
-* Cliente envia a requisição ao servidor para geração do captcha.
-* Servidor processa a requisição e gera uma lista contendo cinco opções de captcha em imagens e um captcha de audio.
-* Dentre as cinco opções de imagem, uma é eleita como captcha válido.
-* As opções são serializadas pelo servidor e devolvidas para o cliente.
-* O Visual Captcha recebe as informações, coloca o audio e imagem válidos no sessionStorage e os renderiza e monta o componente em tela.
-* Usuário seleciona o captcha e clica no botão de validação (definido programaticamente pelo developer).
-* Se o o captcha for válido, chama-se a callback de sucesso. Caso contrário, exibe alerta de opção inválida.
-
-
-#TODOs:
-
-* Adaptar o projeto para arquitetura Maven
-* Melhorar o tratamento de rotas do componente cliente.
-* Integrar feedback por meio de mensagens quando a opção selecionada for válida/inválida.
+* Client requests a new captcha
+* Server creates a list containing five image options and one audio option.
+* One of them is marked as the corret option.
+* The response is sent back as JSON.
+* JQuery component invokes Visual Captcha client and storage data into a temporary localStorage.
+* User selects an option.
+* JQuery component validates it.
 
